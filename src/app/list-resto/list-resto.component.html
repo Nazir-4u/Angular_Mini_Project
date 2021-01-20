@@ -1,0 +1,23 @@
+<table class="table">
+  <tr style="background-color:skyblue;">
+    <th>Id</th>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Email</th>
+    <th>Action</th>
+    <th>Edit</th>
+  </tr>
+  <tr *ngFor="let el of collection">
+    <td>{{el.id}}</td>
+    <td>{{el.name}}</td>
+    <td>{{el.address}}</td>
+    <td>{{el.email}}</td>
+    <td><i (click)="deleteResto(el.id)" class='fas fa-trash' style='font-size:24px'></i></td>
+    <td><a routerLink="/update/{{el.id}}"><i class='fas fa-edit' style='font-size:24px'></i></a></td>
+  </tr>
+  <!-- <tr>
+    <td colspan="4">
+      <mdb-table-pagination [tableEl]="tableEl" [searchDataSource]="collection"></mdb-table-pagination>
+    </td>
+  </tr> -->
+</table>

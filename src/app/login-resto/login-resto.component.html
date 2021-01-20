@@ -1,0 +1,21 @@
+<h1>Login User</h1>
+<!-- <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>New User Registered Successfully!</strong>
+    <button type="button" (click)="closeAlert()" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div> -->
+
+<form [formGroup]="login" (ngSubmit)="loginResto()">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" formControlName="email" aria-describedby="emailHelp"
+            placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputName">Password</label>
+        <input type="password" class="form-control" formControlName="password" placeholder="Enter password">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
