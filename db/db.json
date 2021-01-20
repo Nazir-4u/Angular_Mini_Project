@@ -1,0 +1,42 @@
+{
+  "restaurants": [
+    {
+      "name": "NAZIR ",
+      "address": "MADANSHAHI",
+      "email": "nazir@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "MD NAZIR AHMAD",
+      "address": "sbga",
+      "email": "nazir5246ahmad@gmail.com",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "name": "nazir",
+      "email": "naz@gmail.com",
+      "password": "naz123",
+      "id": 1
+    },
+    {
+      "name": "nazir",
+      "email": "nazir@gmai.com",
+      "password": "nazir123",
+      "id": 2
+    },
+    {
+      "name": "nazir",
+      "email": "nazir@gmai.com",
+      "password": "nazir123",
+      "id": 3
+    },
+    {
+      "name": "Aditya",
+      "email": "Aditya@gmail.com",
+      "password": "aditya",
+      "id": 4
+    }
+  ]
+}
